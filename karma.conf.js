@@ -25,7 +25,6 @@ module.exports = function (config) {
         branches: 80,
         functions: 80
       }
-      fixWebpackSourcePaths: true
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
