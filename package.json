@@ -7,7 +7,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "test:cover":  "rm -f ./coverage && ng test --no-watch --code-coverage",
+    "coveralls": "cat ./coverage/dashingjs2/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "build:gh-pages:demo1": "ng build --prod --outputPath=gh-pages/demo1 --baseHref=/dashingjs2/demo1/"
   },
   "private": true,
   "dependencies": {
@@ -34,6 +37,7 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
+    "coveralls": "^3.0.9",
     "husky": "^3.1.0",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
