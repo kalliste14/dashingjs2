@@ -35,6 +35,5 @@ deploy:
   keep_history: true
   local_dir: gh-pages
   on:
-    branch: feat/gh-pages-with-travis
-
+    branch: master
 
