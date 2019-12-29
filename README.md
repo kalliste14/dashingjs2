@@ -1,4 +1,10 @@
-Juste pour le test de codacy
+[![Known Vulnerabilities](https://snyk.io/test/github/kalliste14/dashingjs2/badge.svg?targetFile=package.json)](https://snyk.io/test/github/kalliste14/dashingjs2?targetFile=package.json)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f66c49cb6b964997b508cf0d2e622844)](https://www.codacy.com/manual/kalliste14/dashingjs2?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kalliste14/dashingjs2&amp;utm_campaign=Badge_Grade)
+
+[![Coverage Status](https://coveralls.io/repos/github/kalliste14/dashingjs2/badge.svg?branch=master)](https://coveralls.io/github/kalliste14/dashingjs2?branch=master)
+
+[![Build Status](https://travis-ci.org/kalliste14/dashingjs2.svg?branch=master)](https://travis-ci.org/kalliste14/dashingjs2)
 
 # Dashingjs2
 
