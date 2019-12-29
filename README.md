@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/kalliste14/dashingjs2/badge.svg?branch=master)](https://coveralls.io/github/kalliste14/dashingjs2?branch=master)
+
 # Dashingjs2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
