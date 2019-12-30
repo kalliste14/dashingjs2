@@ -5,7 +5,11 @@
   "projects": {
     "dashingjs2": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/sass/styles.scss"
             ],
             "scripts": []
           },
@@ -71,6 +75,9 @@
           "configurations": {
             "production": {
               "browserTarget": "dashingjs2:build:production"
+            },
+            "demo1": {
+              "browserTarget": "dashingjs2:build:demo1"
             }
           }
         },
@@ -92,7 +99,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/sass/styles.scss"
             ],
             "scripts": []
           }
