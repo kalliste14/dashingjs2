@@ -1,1 +1,6 @@
-@import "../sass/tools";
+@import '../sass/tools.scss';
+
+:host {
+  width: 100vw;
+  heigth: 100vh;
+}

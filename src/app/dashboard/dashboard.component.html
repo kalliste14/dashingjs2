@@ -1,0 +1,8 @@
+<gridster [options]="config">
+  <gridster-item *ngFor="let item of items; index as i" [item]="item">
+    <div [ngClass]="item.widget.class" class="item-container">
+      <i [ngClass]="item.widget.icon" class="bg-icon"></i>
+      <app-widget-container [data]="item"></app-widget-container>
+    </div>
+  </gridster-item>
+</gridster>
