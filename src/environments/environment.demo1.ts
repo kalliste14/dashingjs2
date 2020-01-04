@@ -19,6 +19,6 @@ const dashingJS2Config: DashingJS2Config = {
 };
 
 export const environment = {
-  dashingJS2Config: dashingJS2Config,
+  dashingjs2Config: dashingJS2Config,
   production: true
 };
