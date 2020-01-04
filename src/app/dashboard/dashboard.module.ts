@@ -4,9 +4,10 @@ import { DashboardComponent } from './dashboard.component';
 import { DashboardRoutesModule } from './dashboard.routes';
 import { GridsterModule } from 'angular-gridster2';
 import { DashboardGridsterConfigService } from './dashboard-gridster-config.service';
+import { WidgetContainerComponent } from './widget-container.component';
 
 @NgModule({
-  declarations: [DashboardComponent],
+  declarations: [DashboardComponent, WidgetContainerComponent],
   imports: [CommonModule, DashboardRoutesModule, GridsterModule],
   providers: [DashboardGridsterConfigService]
 })
