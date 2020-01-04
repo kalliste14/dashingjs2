@@ -66,6 +66,9 @@
           "configurations": {
             "production": {
               "browserTarget": "dashingjs2:build:production"
+            },
+            "demo1": {
+              "browserTarget": "dashingjs2:build:demo1"
             }
           }
         },
