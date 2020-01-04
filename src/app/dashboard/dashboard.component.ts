@@ -18,6 +18,6 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit() {
     this.config = this.dashboardGridsterConfigService.getConfig();
-    this.items = environment.dashingJS2Config.items;
+    this.items = environment.dashingjs2Config.items;
   }
 }
