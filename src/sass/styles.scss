@@ -1,8 +1,8 @@
 @charset "utf-8";
-@import 'variables.scss';
+@import 'variables';
 @import '~bourbon/core/bourbon';
 @import 'bootstrap-custom';
-@import 'src/assets/fonts/fonts';
+@import 'fonts/fonts';
 @import 'font-awesome-custom';
 
 html,
