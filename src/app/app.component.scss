@@ -1,10 +1,6 @@
 @import '../sass/tools.scss';
 
-h1 {
-  color: $info;
-  @include border-style(dashed null solid);
-}
-
-h2 {
-  @include ellipsis;
+:host {
+  width: 100vw;
+  heigth: 100vh;
 }
