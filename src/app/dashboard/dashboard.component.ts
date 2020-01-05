@@ -12,7 +12,7 @@ import { DashingJS2GridsterItem } from './interfaces/dashing-js2-gridster-item';
 export class DashboardComponent implements OnInit {
   // Tableau des widgets
   items: Array<DashingJS2GridsterItem>;
-  private config: GridsterConfig;
+  config: GridsterConfig;
 
   constructor(private dashboardGridsterConfigService: DashboardGridsterConfigService) {}
 
