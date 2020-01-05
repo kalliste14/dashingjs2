@@ -7,11 +7,19 @@ import { DashboardGridsterConfigService } from './dashboard-gridster-config.serv
 import { WidgetContainerComponent } from './widget-container.component';
 import { WidgetHostDirective } from './widget-host.directive';
 import { HelloWorldComponent } from './widgets/hello-world/hello-world.component';
+import { HttpClientModule } from '@angular/common/http';
+import { WidgetGiphyComponent } from './widgets/widget-giphy/widget-giphy.component';
 
 @NgModule({
-  declarations: [DashboardComponent, WidgetContainerComponent, WidgetHostDirective, HelloWorldComponent],
-  imports: [CommonModule, DashboardRoutesModule, GridsterModule],
+  declarations: [
+    DashboardComponent,
+    WidgetContainerComponent,
+    WidgetHostDirective,
+    HelloWorldComponent,
+    WidgetGiphyComponent
+  ],
+  imports: [CommonModule, DashboardRoutesModule, GridsterModule, HttpClientModule],
   providers: [DashboardGridsterConfigService],
-  entryComponents: [HelloWorldComponent]
+  entryComponents: [HelloWorldComponent, WidgetGiphyComponent]
 })
 export class DashboardModule {}
