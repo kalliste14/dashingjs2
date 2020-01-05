@@ -4,7 +4,8 @@ import { WidgetHostDirective } from './widget-host.directive';
 
 @Component({
   selector: 'app-widget-container',
-  template: '<ng-template [appWidgetHost]="data"></ng-template>'
+  template: '<ng-template [appWidgetHost]="data"></ng-template>',
+  styles: [' :host {height: 100%; display: flex; align-items: center}']
 })
 export class WidgetContainerComponent implements OnInit {
   @Input() data: DashingJS2GridsterItem;
